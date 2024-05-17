@@ -1,7 +1,17 @@
 #!/usr/bin/python3
+"""
+    Define 'State' class
+"""
 from models.base_model import BaseModel
-import sys 
+
 
 class State(BaseModel):
-    """State class that inherits from BaseModel."""
+
+    """
+        Class to manage state objects
+        Represent a state with a name
+        Attributes:
+            name (str): The name of the state
+    """
+
     name = ""
