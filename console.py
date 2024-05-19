@@ -12,8 +12,8 @@ from models import storage
 
 
 class HBNBCommand(cmd.Cmd):
-    prompt = '(hbnb) '
-    models = ['BaseModel', 'User', 'Amenity', 'City',
+    prompt = '(hbnb-console) '
+    available_models = ['BaseModel', 'User', 'Amenity', 'City',
               'Place', 'Review', 'State', 'User']
 
     def do_create(self, line):
