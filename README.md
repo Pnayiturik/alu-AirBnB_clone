@@ -12,7 +12,7 @@ Welcome to the Airbnb project, your first step towards building a full-fledged w
 
 ### Description of the Console/Command Interpreter
 
-The command interpreter/console serves as the interface of the application, resembling the Bash shell with a limited set of commands specifically designed for the Airbnb website. Developed with Python OOP programming, it allows users to interact with the backend effectively. Some available commands include:
+The command interpreter/console serves as the application's interface, resembling the Bash shell with a limited set of commands specifically designed for the Airbnb website. Developed with Python OOP programming, it allows users to interact with the backend effectively. Some available commands include:
 
 * show
 * create
@@ -26,7 +26,7 @@ These commands enable users to manage objects within the project, such as creati
 
 | Tasks | Files | Description |
 |-------|-------|-------------|
-| 0     | AUTHORS | Project authors (Bridget Chimdinma and Afsa Umutoniwase) |
+| 0     | AUTHORS | Project authors (Patrick nayituriki) |
 | 1     | console.py /models/engine/file_storage.py /models/user.py | Implement the user class dynamically in the console and file storage system |
 | 2     | /tests | Unit tests for all class-defining modules |
 | 3     | console.py /models/engine/file_storage.py | Updates console and file storage system dynamically |
@@ -46,7 +46,7 @@ To start the console, follow these steps:
 
 1. Clone the repository:
 ```
-git clone https://github.com/amuhirwa/alu-AirBnB_clone.git
+[git clone https://github.com/Pnayiturik/alu-AirBnB_clone.git
 ```
 After cloning the repository, you will have a folder called AirBnB_clone. In here, there will be several files that allow the program to work.
 
