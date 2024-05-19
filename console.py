@@ -13,7 +13,8 @@ from models import storage
 
 class HBNBCommand(cmd.Cmd):
     prompt = '(hbnb) '
-    models = ['BaseModel', 'User', 'Amenity', 'City', 'Place', 'Review', 'State', 'User']
+    models = ['BaseModel', 'User', 'Amenity', 'City',
+              'Place', 'Review', 'State', 'User']
 
     def do_create(self, line):
         """Usage: create <class>
@@ -80,7 +81,7 @@ class HBNBCommand(cmd.Cmd):
                 return
             else:
                 objs = dict(filter(lambda x: args[0] in x[0],
-                                    storage.all().items()))
+                                   storage.all().items()))
                 for obj in objs.values():
                     list_of_objects.append(obj.__str__())
         print(list_of_objects)
@@ -127,6 +128,7 @@ class HBNBCommand(cmd.Cmd):
     def do_EOF(self, line):
         "Exit the program with CTRL + D"
         return True
+
 
 if __name__ == "__main__":
     HBNBCommand().cmdloop()
